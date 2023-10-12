@@ -36,7 +36,7 @@ jobs:
           docker push 975148384510.dkr.ecr.ca-central-1.amazonaws.com/winows-images:winTest1Image
 
       - name: Tag the Docker Image Locally
-        run: docker tag 975148384510.dkr.ecr.ca-central-1.amazonaws.com/windtest:nano22 sdk:bmo
+        run: docker tag 975148384510.dkr.ecr.ca-central-1.amazonaws.com/winows-images:winTest1Image sdk:bmo
 
       - name: Create Local Docker Image
         run: docker build -t sdk:bmo .
