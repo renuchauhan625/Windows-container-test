@@ -49,3 +49,6 @@ jobs:
 
       - name: List Running Containers
         run: docker ps -a
+        
+      - name: List all Containers
+        run: docker ps
