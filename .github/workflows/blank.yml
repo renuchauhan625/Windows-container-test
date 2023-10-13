@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build and Push Image
-    runs-on: windows-2022
+    runs-on: renu-hosted
 
     steps:
       - name: Check out code
